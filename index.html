@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img class="aba-logo" src="./img/Aba-Logo.png">
+          </div>
+          <nav class="nav-bar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reserve</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Group Dining</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="images">
+          <img class="image-1" src="./img/up-47.jpg" alt="">
+          <img class="image-2" src="./img/Aba_VillageSalad.jpg" alt="">
+        </div>
+        </div>
+        <div>
+          <h3 class="reservation">MAKE A RESERVATION</h3>
+            <form onsubmit="submitReservationDetails(event)" id="reservation-details" class="buttons">
+              <input type="date" class="res-button" name="date" value="2023-10-03" min="2023-10-03" max="2023-12-31" />
+              <input type="time" id="appt" name="appt" min="09:00" max="23:00" required />
+              <label for="guests">Number of Guests</label>
+                <select name="guests" id="guests">
+                <option value=" ">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                </select>
+              <button class="res-button" type="submit" >Find a Table</button>
+              </form>
+              <form onsubmit="submitGuestDetails(event)" id="guest-details" class="buttons" style="display: none">
+              <label for="name">Name</label>
+              <input type="text" name="guest-name" id="guest-name" placeholder="Name" required />
+              <label for="number">Phone Number</label>
+              <input type="text" name="phone-number" id="phone-number" placeholder="Phone Number" required />
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" placeholder="Email" required />
+              <button class="res-button" type="submit" >Submit Reservation</button>
+              </form>
+              <p class="reservation-success" id="reservation-success" style="display: none">Success!</p>
+        </div>
+        <div class="more-info-group">
+          <div class="more-info-text"><h2>Group Dining at Aba</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo omnis similique totam sint necessitatibus, aperiam tempore ducimus voluptatem dolores sed ipsum, repellendus quod. Reiciendis, rerum laboriosam assumenda atque laudantium facere?</p>
+          <button>Plan your Party</button>
+          </div>
+          <img class="image-3" src="/img/up-37.jpg" alt="">
+        </div>
+        <div class="more-info-group">
+          <img class="image-4" src="/img/up-35.jpg" alt="">
+          <div class="more-info-text">
+            <h2>Wine Dinner</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quam doloribus debitis tenetur dolores labore fugiat amet maxime neque praesentium voluptatibus magnam, sapiente ut itaque dolore aliquam quisquam, numquam expedita.</p>
+            <h3>June 13th 2018 at 7pm</h3>
+            <button>Learn More</button>
+          </div>
+        </div>
+        <div class="more-info-group">
+          <div class="more-info-text"><h2>About Aba</h2>
+          <p>Aba is a restaurant with a rooftoop patio located in Chicago's historic Fulton
+            Market District. This is Chef C.] Jacobson's second restaurant with lettuce
+            You and is an ovtoncion of Ems lmother in Hehrow in Diver North
+            Aba. meaning father in Hebrew. will incorporate Éma's style of cooking with a larger influence of steak raw and chilled seafood. The beverage proaram crafted by Wine Director Ryan Arnold and Mixoloqist Liz Pearce and showcases Mediterranean-inspired rare wines and spirits.</p>
+          </div>
+          <img class="image-5" src="/img/up-42.jpg" alt="">
+        </div>
+        <div class="footer-container">
+          <div class="hours">
+            <h3>HOURS</h3>
+            <p>Tues - Thurs 12pm- 10pm</p>
+            <p>Fri 12pm- 1am</p>
+            <p>Sat 11am- 1am</p>
+            <p>Sun 10am- 9pm</p>
+            <H3>CONTACT</H3>
+            <h3>NEWSLETTER</h3>
+          </div>
+          <div class="locations">
+            <h3>LOCATIONS</h3>
+            <p>302 N Green Street,</p>
+            <p>3rd Floor</p>
+            <p>Chicago, IL 60607</p>
+            <h3>773-645-1400</h3>
+          </div>
+          </div>
+            <div class="footer-wrapper">
+              <ul class="footer-links">
+                <li>Frequent Diner</li>
+                <li>Gift Cards</li>
+                <li>Employment</li>
+                <li>leye.com</li>
+                <li>Terms of Use</li>
+                <li>Privacy Policy</li>
+              </ul>
+            </di>
+          </div>
+    </div>
+</body>
+</html>

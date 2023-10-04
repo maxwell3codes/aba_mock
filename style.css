@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    width: 75%;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+    padding: 20px 40px;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-image: url("./img/white-wood.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+    text-decoration-color: lightgrey;
+    display: flex;
+    padding: 5px;
+    border-top: solid lightgrey 1px;
+    border-bottom: solid lightgrey 1px;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    margin: auto 50px auto 50px;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    text-decoration-color: lightgrey;
+}
+
+.nav-item {
+}
+
+.aba-logo {
+    height: 80px;
+    width: 80px;
+}
+
+.images {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.image-1 {
+    height: 400px;
+    width: auto;
+    padding: 4px;
+    margin-left: 30px;
+}
+
+.image-2 {
+    height: 400px;
+    width: auto;
+    padding: 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservation {
+    text-align: center;
+    border-top: solid lightgrey 1px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reservation-success {
+    text-align: center;
+    color: green;
+}
+
+.buttons {
+    text-align: center;
+    border-bottom: solid lightgrey 1px;
+    margin-bottom: 20px;
+}
+
+.res-button {
+    width: 200px;
+    justify-content: space-between;
+}
+
+.more-info-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.more-info-group  {
+    display: flex;
+}
+
+.image-3 {
+    height: 275px;
+}
+
+.image-4 {
+    height: 275px;
+}
+
+.image-5 {
+    height: 275px;
+}
+
+.footer-container {
+    display: flex;
+    background-image: url(/img/Aba-wood-1.jpg);
+    color: white;
+    justify-content: right;
+    padding: 40px;
+}
+
+.locations  {
+    margin-left: 50px;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-image: url(/img/Aba-wood-1.jpg);
+    color: white;
+}
